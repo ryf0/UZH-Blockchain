@@ -8,7 +8,7 @@ This system allows edge devices and verifiers to push data into a MongoDB databa
 
 ## 🏗️ System Architecture
 
-<img width="524 height="524" alt="image" src="https://github.com/user-attachments/assets/45126a05-31d3-49c6-b445-57f982a1d23b" />
+<img width="524" height="524" alt="image" src="https://github.com/user-attachments/assets/45126a05-31d3-49c6-b445-57f982a1d23b" />
 
 
 **Components:**
