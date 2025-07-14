@@ -8,7 +8,8 @@ This system allows edge devices and verifiers to push data into a MongoDB databa
 
 ## 🏗️ System Architecture
 
-![System Architecture](./851900eb-bd94-4440-b4c8-80f984a1121c.png)
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/45126a05-31d3-49c6-b445-57f982a1d23b" />
+
 
 **Components:**
 - **Edge Devices / Verifiers:** Upload raw MRV data.
