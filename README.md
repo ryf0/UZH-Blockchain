@@ -32,11 +32,11 @@ This system allows edge devices and verifiers to push data into a MongoDB databa
 | 🌐 Marketplace integration  | Compatible with OpenSea, KlimaDAO, and other NFT platforms. |
 
 ## 📦 Repository Structure
-File/Folder	Description
-server.js	Express API server. Fetches MRV data from MongoDB, hashes it, serves JSON metadata, and pushes hash updates to the ERC-721 smart contract.
-sample.json	Example of the OpenSea-compatible JSON metadata served at /metadata/:tokenId. Shows structure of API response.
-sample.sol	Solidity ERC-721 smart contract storing SHA-256 hashes on-chain. Includes mint, updateMetadataHash, and getMetadataHash.
-.env	Environment variables (MongoDB URI, RPC URL, private key, contract address, etc.). Used by server.js to connect to DB and blockchain.
-models/Project.js	Mongoose schema for MRV projects stored in MongoDB.
+| File/Folder         | Description                                                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `server.js`         | Express API server. Fetches MRV data from MongoDB, hashes it, serves JSON metadata, and pushes hash updates to the ERC-721 smart contract. |
+| `sample.json`       | Example of the OpenSea-compatible JSON metadata served at `/metadata/:tokenId`. Shows structure of API response.                           |
+| `sample.sol`        | Solidity ERC-721 smart contract storing SHA-256 hashes on-chain. Includes `mint`, `updateMetadataHash`, and `getMetadataHash`.             |
+| `.env`              | Environment variables (MongoDB URI, RPC URL, private key, contract address, etc.). Used by `server.js` to connect to DB and blockchain.    |
 
 ---
