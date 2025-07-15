@@ -1,7 +1,7 @@
 {
   "name": "Wind Farm Delta",
   "description": "Macarthur Wind Farm",
-  "image": "https://onestepoffthegrid.com.au/wp-content/uploads/2019/01/Challicum_Hills_WF_97-copy-1.jpg",
+  "image": "https://coffee-quiet-parrot-981.mypinata.cloud/ipfs/bafybeickkxchfz7ug3rpkx5fmev6u6qnkncjygl4z3fnz4gbw2dewkevwa",
   "attributes": [
     { "trait_type": "Location", "value": "Melbourne" },
     { "trait_type": "Emissions Avoided", "value": "1,600,000 kg CO2e" },
