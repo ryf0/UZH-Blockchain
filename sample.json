@@ -1,12 +1,12 @@
 {
   "name": "Wind Farm Delta",
-  "description": "Decarbonization project with verified MRV data.",
-  "image": "https://cdn.yourplatform.io/images/windfarm-delta.png",
+  "description": "Macarthur Wind Farm",
+  "image": "https://onestepoffthegrid.com.au/wp-content/uploads/2019/01/Challicum_Hills_WF_97-copy-1.jpg",
   "attributes": [
-    { "trait_type": "Location", "value": "Namibia" },
-    { "trait_type": "Emissions Avoided", "value": "1,600,000 kg CO₂e" },
-    { "trait_type": "Verifier", "value": "DNV" },
-    { "trait_type": "Last Verified", "value": "2025-09-01" },
-    { "trait_type": "Data Hash", "value": "b6f6991a4e7c2f92ff64a1e1…" }
+    { "trait_type": "Location", "value": "Melbourne" },
+    { "trait_type": "Emissions Avoided", "value": "1,600,000 kg CO2e" },
+    { "trait_type": "Verifier", "value": "Verra" },
+    { "trait_type": "Last Verified", "value": "2025-07-15" },
+    { "trait_type": "Data Hash", "value": "b6f6991a4e7c2f92ff64a1e136e5a5d28c4478f037bfe5d4cd8146c7b92b297d" }
   ]
 }
