@@ -18,12 +18,11 @@ contract DecarbonizationNFT is ERC721URIStorage, Ownable {
     constructor() ERC721("DecarbonizationNFT", "DCNFT") {}
 
     /// @notice Mint a new NFT for a decarbonization project
-    /// @param to Recipient address
     /// @param tokenId Unique token ID
     /// @param tokenURI URI pointing to metadata JSON (e.g., API endpoint)
-    function mint(address to, uint256 tokenId, string memory tokenURI) public onlyOwner {
+    function mint(uint256 tokenId, string memory tokenURI) public {
         require(!_exists(tokenId), "Token already exists");
-        _safeMint(to, tokenId);
+        _safeMint(msg.sender, tokenId);
         _setTokenURI(tokenId, tokenURI);
     }
 
